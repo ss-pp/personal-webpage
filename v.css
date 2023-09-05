@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(white, red, white);
+}
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 18px; 
+    }
+}
